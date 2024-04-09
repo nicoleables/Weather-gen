@@ -1,0 +1,43 @@
+#searched-cities {
+    position: absolute;
+    top: 150px; /* Adjust the top position as needed */
+    left: 20px; /* Set the text to the left side of the page */
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center; /* Center the items horizontally */
+    padding: 5px 50px;
+
+}
+
+.forecast-item {
+    color: white;
+    background-color: rgb(93, 103, 150);
+    padding: 10px;
+    margin: 5px; /* Adjust margin as needed */
+    border-radius: 5px;
+    text-align: center; /* Center the text within each item */
+    
+}
+
+.btn-info {
+    position: relative;
+    top: 50px;
+    right: 180px;
+    font-size: 16px;
+    padding: 5px 50px;
+}
+
+.city-name {
+    position: relative;
+    color: black;
+    font-size: 15px;
+    right: 20px;
+
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
