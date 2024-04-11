@@ -44,7 +44,7 @@ document.getElementById('search-button').addEventListener('click', function() {
 });
 }
 function fetchWeatherData(city) {
-    queryURL = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKey}`;
+    queryURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKey}`;
  
     fetch(queryURL)
         .then(response => response.json())
